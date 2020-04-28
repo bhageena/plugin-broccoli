@@ -10,7 +10,9 @@
     "globby": "^11.0.0",
     "tslib": "^1"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "@oclif/dev-cli": "^1.22.2"
+  },
   "engines": {
     "node": ">=8.0.0"
   },
