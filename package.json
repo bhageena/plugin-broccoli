@@ -1,9 +1,11 @@
 {
-  "name": "broccoli",
+  "name": "@techlode/broccoli",
   "description": "oclif plugin",
   "version": "0.0.0",
   "author": "Chandan Rai @bhageena",
-  "bugs": "https://github.com/bhageena/broccoli/issues",
+  "bugs": {
+    "url": "https://github.com/bhageena/broccoli/issues"
+  },
   "dependencies": {
     "@oclif/command": "^1",
     "@oclif/config": "^1",
@@ -26,7 +28,7 @@
   "keywords": [
     "oclif-plugin"
   ],
-  "license": "MIT",
+  "license": "ISC",
   "oclif": {
     "commands": "./lib/commands",
     "bin": "oclif-example",
@@ -34,12 +36,19 @@
       "@oclif/plugin-help"
     ]
   },
-  "repository": "bhageena/broccoli",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bhageena/broccoli.git"
+  },
   "scripts": {
     "postpack": "rm -f oclif.manifest.json",
     "posttest": "eslint . --ext .ts --config .eslintrc",
     "prepack": "rm -rf lib && tsc -b && oclif-dev manifest && oclif-dev readme",
     "test": "echo NO TESTS",
     "version": "oclif-dev readme && git add README.md"
+  },
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
   }
 }

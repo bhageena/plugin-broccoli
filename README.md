@@ -15,11 +15,11 @@ oclif plugin
 # Usage
 <!-- usage -->
 ```sh-session
-$ npm install -g broccoli
+$ npm install -g @techlode/broccoli
 $ oclif-example COMMAND
 running command...
 $ oclif-example (-v|--version|version)
-broccoli/0.0.0 linux-x64 node-v13.5.0
+@techlode/broccoli/0.0.0 linux-x64 node-v14.3.0
 $ oclif-example --help [COMMAND]
 USAGE
   $ oclif-example COMMAND
