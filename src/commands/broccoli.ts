@@ -23,7 +23,7 @@ hello from broccoli!
     const {args, flags} = this.parse(Hello)
 
     const name = flags.name || 'world'
-    this.log(`hello ${name} from broccoli`)
+    this.log(`hello  test ${name} from broccoli`)
     if (args.file && flags.force) {
       this.log(`you input --force and --file: ${args.file}`)
     }

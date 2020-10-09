@@ -1,7 +1,7 @@
 {
-  "name": "@techlode/broccoli",
+  "name": "@techlode/plugin-broccoli1",
   "description": "oclif plugin",
-  "version": "0.0.0",
+  "version": "0.0.2",
   "author": "Chandan Rai @bhageena",
   "bugs": {
     "url": "https://github.com/bhageena/broccoli/issues"
@@ -13,7 +13,8 @@
     "tslib": "^1"
   },
   "devDependencies": {
-    "@oclif/dev-cli": "^1.22.2"
+    "@oclif/dev-cli": "^1.22.2",
+    "aws-sdk": "^2.726.0"
   },
   "engines": {
     "node": ">=8.0.0"
@@ -31,10 +32,11 @@
   "license": "ISC",
   "oclif": {
     "commands": "./lib/commands",
-    "bin": "oclif-example",
+    "bin": "broccoli",
     "devPlugins": [
       "@oclif/plugin-help"
-    ]
+    ],
+    "scope": "techlode"
   },
   "repository": {
     "type": "git",

@@ -15,28 +15,28 @@ oclif plugin
 # Usage
 <!-- usage -->
 ```sh-session
-$ npm install -g @techlode/broccoli
-$ oclif-example COMMAND
+$ npm install -g @techlode/plugin-broccoli1
+$ broccoli COMMAND
 running command...
-$ oclif-example (-v|--version|version)
-@techlode/broccoli/0.0.0 linux-x64 node-v14.3.0
-$ oclif-example --help [COMMAND]
+$ broccoli (-v|--version|version)
+@techlode/plugin-broccoli1/0.0.1 linux-x64 node-v14.3.0
+$ broccoli --help [COMMAND]
 USAGE
-  $ oclif-example COMMAND
+  $ broccoli COMMAND
 ...
 ```
 <!-- usagestop -->
 # Commands
 <!-- commands -->
-* [`oclif-example broccoli [FILE]`](#oclif-example-broccoli-file)
+* [`broccoli broccoli [FILE]`](#broccoli-broccoli-file)
 
-## `oclif-example broccoli [FILE]`
+## `broccoli broccoli [FILE]`
 
 describe the command here
 
 ```
 USAGE
-  $ oclif-example broccoli [FILE]
+  $ broccoli broccoli [FILE]
 
 OPTIONS
   -f, --force
@@ -48,5 +48,5 @@ EXAMPLE
   hello from broccoli!
 ```
 
-_See code: [lib/commands/broccoli.js](https://github.com/bhageena/broccoli/blob/v0.0.0/lib/commands/broccoli.js)_
+_See code: [lib/commands/broccoli.js](https://github.com/bhageena/broccoli/blob/v0.0.1/lib/commands/broccoli.js)_
 <!-- commandsstop -->
