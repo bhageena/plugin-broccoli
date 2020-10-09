@@ -1,7 +1,7 @@
 {
   "name": "@techlode/plugin-broccoli1",
   "description": "oclif plugin",
-  "version": "0.0.3",
+  "version": "0.0.2",
   "author": "Chandan Rai @bhageena",
   "bugs": {
     "url": "https://github.com/bhageena/broccoli/issues"
