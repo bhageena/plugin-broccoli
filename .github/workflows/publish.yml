@@ -17,8 +17,8 @@ jobs:
     - name: Publish if version has been updated
       uses: pascalgn/npm-publish-action@06e0830ea83eea10ed4a62654eeaedafb8bf50fc
       with:
-        tag_name: "v%s"
-        tag_message: "v%s"
+        tag_name: "v%s-broccoli1"
+        tag_message: "v%s-broccoli1"
         commit_pattern: "^Release (\\S+)"
         workspace: "."
       env:
