@@ -19,7 +19,7 @@ $ npm install -g @techlode/plugin-broccoli1
 $ broccoli COMMAND
 running command...
 $ broccoli (-v|--version|version)
-@techlode/plugin-broccoli1/0.0.1 linux-x64 node-v14.3.0
+@techlode/plugin-broccoli1/0.0.2 linux-x64 node-v14.3.0
 $ broccoli --help [COMMAND]
 USAGE
   $ broccoli COMMAND
@@ -48,5 +48,5 @@ EXAMPLE
   hello from broccoli!
 ```
 
-_See code: [lib/commands/broccoli.js](https://github.com/bhageena/broccoli/blob/v0.0.1/lib/commands/broccoli.js)_
+_See code: [src/commands/broccoli.ts](https://github.com/bhageena/broccoli/blob/v0.0.2/src/commands/broccoli.ts)_
 <!-- commandsstop -->
